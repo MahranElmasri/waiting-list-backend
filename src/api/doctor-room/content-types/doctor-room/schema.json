@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctor_rooms",
+  "info": {
+    "singularName": "doctor-room",
+    "pluralName": "doctor-rooms",
+    "displayName": "Doctor-room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "roomNumber": {
+      "type": "integer"
+    },
+    "patientName": {
+      "type": "string"
+    },
+    "doctorId": {
+      "type": "integer"
+    },
+    "roomId": {
+      "type": "integer"
+    }
+  }
+}
